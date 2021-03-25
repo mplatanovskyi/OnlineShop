@@ -60,6 +60,8 @@
   <ItemGroup>
     <Build Include="Customers.sql" />
     <Build Include="Books.sql" />
+    <Build Include="Orders.sql" />
+    <Build Include="Discounts.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="OnlineShop.refactorlog" />

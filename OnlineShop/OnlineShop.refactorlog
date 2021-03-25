@@ -14,4 +14,25 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="EditionYear" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="6813bf0d-2bdd-406d-909e-08922ebd29c8" ChangeDateTime="03/25/2021 15:22:36">
+    <Property Name="ElementName" Value="[dbo].[FK_Orders_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Orders]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Orders_ToBooks]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b75ad5ae-11b6-4c3e-9772-aff90d6fc55d" ChangeDateTime="03/25/2021 15:25:52">
+    <Property Name="ElementName" Value="[dbo].[FK_Orders_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Orders]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Orders_ToCustomer]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="62e7fd18-87ed-4050-812a-a641301bc9e6" ChangeDateTime="03/25/2021 16:02:49">
+    <Property Name="ElementName" Value="[dbo].[Orders].[CustomerName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Orders]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CustomerId" />
+  </Operation>
 </Operations>
