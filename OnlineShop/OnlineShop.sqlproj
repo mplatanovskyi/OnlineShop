@@ -58,7 +58,8 @@
     <Folder Include="Properties" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Customer.sql" />
+    <Build Include="Customers.sql" />
+    <Build Include="Books.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="OnlineShop.refactorlog" />
