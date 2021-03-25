@@ -62,6 +62,10 @@
     <Build Include="Books.sql" />
     <Build Include="Orders.sql" />
     <Build Include="Discounts.sql" />
+    <Build Include="Users.sql" />
+    <Build Include="Warehouse.sql" />
+    <Build Include="Contacts.sql" />
+    <Build Include="UserCategories.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="OnlineShop.refactorlog" />
